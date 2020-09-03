@@ -1,6 +1,6 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local chatEvents = ReplicatedStorage:WaitForChild("DefaultChatSystemChatEvents")
-local messageEvent = chatEvents:WaitForChild("OnNewMessage")
+local messageEvent = chatEvents:WaitForChild("OnMessageDoneFiltering")
 
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
